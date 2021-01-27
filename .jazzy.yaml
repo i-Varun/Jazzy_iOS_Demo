@@ -1,0 +1,12 @@
+# Jazzy config
+module: Jazzy_iOS_Demo
+author: Varun Patel
+swift_version: 5.3.2
+xcodebuild_arguments: [clean,build,-workspace,Jazzy-iOS-Demo.xcworkspace,-scheme,Jazzy-iOS-Demo]
+min_acl: private
+theme: apple
+output: 'Documentation/Jazzy_Demo'
+use_safe_filenames: true
+
+exclude: 
+  - '*AppDelegate*'
